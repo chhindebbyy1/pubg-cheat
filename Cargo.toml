@@ -1,0 +1,11 @@
+[package]
+name = "pubg_cheat"
+version = "1.0.0"
+edition = "2018"
+
+[dependencies]
+rand = "0.8"
+winapi = { version = "0.3", features = ["winuser"] }
+
+[profile.release]
+opt-level = 3
